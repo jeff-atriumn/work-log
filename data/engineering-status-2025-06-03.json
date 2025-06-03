@@ -1,0 +1,126 @@
+{
+  "lastUpdated": "2025-06-03T05:22:00Z",
+  "organizations": [
+    {
+      "organization": "atriumn",
+      "summary": "Multi-platform ecosystem with mature production readiness focus and strategic cross-service coordination.",
+      "repositories": [
+        {
+          "name": "atriumn-auth",
+          "currentFocus": "Federated authentication completion and automated JWT key rotation implementation",
+          "status": "active",
+          "trend": "progressing",
+          "priority": "high"
+        },
+        {
+          "name": "atriumn-ai",
+          "currentFocus": "Status reporting not implemented",
+          "status": "unknown",
+          "trend": "needs-attention",
+          "priority": "medium"
+        },
+        {
+          "name": "atriumn-storage",
+          "currentFocus": "Advanced testing infrastructure and tenant security hardening with foundation work",
+          "status": "active",
+          "trend": "progressing",
+          "priority": "high"
+        },
+        {
+          "name": "atriumn-ingest",
+          "currentFocus": "Production readiness with observability coverage improvement and API contract validation",
+          "status": "active",
+          "trend": "needs-attention",
+          "priority": "high"
+        },
+        {
+          "name": "aegis-backend",
+          "currentFocus": "Platform infrastructure consolidation with SAM template expansion for multi-service deployment",
+          "status": "active",
+          "trend": "progressing",
+          "priority": "high"
+        },
+        {
+          "name": "aegis-web",
+          "currentFocus": "Frontend infrastructure integration blocked by backend dependencies",
+          "status": "blocked",
+          "trend": "stable",
+          "priority": "high"
+        },
+        {
+          "name": "aegis-mobile",
+          "currentFocus": "Mobile equipment inspection workflow with offline capabilities blocked by backend APIs",
+          "status": "blocked",
+          "trend": "stable",
+          "priority": "medium"
+        }
+      ],
+      "engineeringFocus": [
+        "Production readiness and test coverage optimization",
+        "Multi-tenant security isolation and validation",
+        "Platform infrastructure consolidation for Aegis ecosystem",
+        "Equipment management and inspection workflows",
+        "Federated authentication and JWT key rotation"
+      ],
+      "blockers": [
+        "Observability package test coverage gap preventing overall coverage goals",
+        "Backend infrastructure development blocking frontend and mobile progress",
+        "Foundation dependencies in storage service requiring sequential completion"
+      ],
+      "recentChanges": [
+        "Enhanced multi-tenant security epic completed in auth service",
+        "Comprehensive epic organization across storage and ingest services",
+        "Infrastructure consolidation strategy for Aegis platform coordination",
+        "Backend-first dependency management for systematic development"
+      ],
+      "metrics": {
+        "activeRepositories": 5,
+        "totalPriorities": 18,
+        "repositoriesProgressing": 3,
+        "repositoriesBlocked": 2
+      }
+    },
+    {
+      "organization": "idynic",
+      "summary": "AI-powered identity platform with systematic approach to resume generation and federated authentication integration.",
+      "repositories": [
+        {
+          "name": "idynic-api",
+          "currentFocus": "Resume generation service implementation with AI tailoring logic and service integration",
+          "status": "active",
+          "trend": "needs-attention",
+          "priority": "high"
+        },
+        {
+          "name": "idynic-web",
+          "currentFocus": "Infrastructure foundation setup for federated authentication implementation",
+          "status": "active",
+          "trend": "progressing",
+          "priority": "high"
+        }
+      ],
+      "engineeringFocus": [
+        "AI-powered resume and cover letter generation with service integration",
+        "Federated authentication with Atriumn platform",
+        "Infrastructure foundation and testing framework implementation",
+        "CI/CD pipeline completion and deployment automation"
+      ],
+      "blockers": [
+        "Core generation service implementation blocking API endpoints and downstream features",
+        "Testing infrastructure prerequisite blocking federated authentication development"
+      ],
+      "recentChanges": [
+        "Epic reorganization with clear priority alignment across both repositories",
+        "Infrastructure foundation epic creation for systematic development approach",
+        "CI/CD deployment pipeline gap identification and prioritization",
+        "Conservative gap analysis maintaining focus on evidence-based development"
+      ],
+      "metrics": {
+        "activeRepositories": 2,
+        "totalPriorities": 5,
+        "repositoriesProgressing": 1,
+        "repositoriesBlocked": 1
+      }
+    }
+  ]
+}
